@@ -23,7 +23,7 @@ class EmployeePayroll {
         this.startDate = new Date(startDate);
     }
 
-    // Regex Validation Functions
+    // Validation Functions
     validateId = (id) => /^[1-9][0-9]*$/.test(id);
     validateSalary = (salary) => /^[1-9][0-9]*$/.test(salary);
     validateGender = (gender) => /^(M|F)$/.test(gender); // Gender must be 'M' or 'F'
